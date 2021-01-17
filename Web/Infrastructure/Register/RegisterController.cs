@@ -11,11 +11,10 @@ using MoreLinq;
 using AutoMapper;
 using MyApp.Bll.Db;
 using MyApp.Bll.Models;
-using MyApp.Web.Data.Auth;
-using MyApp.Web.Data.Register;
+using MyApp.Web.Infrastructure.Auth;
 using MyApp.Web.Infrastructure;
 
-namespace MyApp.Web.Data.Register
+namespace MyApp.Web.Infrastructure.Register
 {
   [Route("api/register")]
   public class RegisterController : Controller

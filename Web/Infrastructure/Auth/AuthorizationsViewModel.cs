@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using MyApp.Web.Infrastructure;
 
-namespace MyApp.Web.Data.Auth
+namespace MyApp.Web.Infrastructure.Auth
 {
     public class AuthorizationsViewModel
     {

@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MoreLinq;
 
-namespace MyApp.Web.Data.Base
+namespace MyApp.Web.Infrastructure.Base
 {
   [Route("api/[controller]")]
   public abstract class BaseController<TModel, TList, TDetails> : Controller

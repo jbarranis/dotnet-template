@@ -9,11 +9,10 @@ using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using MyApp.Bll.Db;
 using MyApp.Bll.Models;
-using MyApp.Web.Data.Auth;
-using MyApp.Web.Data.Login;
+using MyApp.Web.Infrastructure.Auth;
 using MyApp.Web.Infrastructure;
 
-namespace MyApp.Web.Data.Login
+namespace MyApp.Web.Infrastructure.Login
 {
   [Route("api/login")]
   public class LoginController : Controller

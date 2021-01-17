@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using MyApp.Bll.Models;
-using MyApp.Web.Data.Base;
+using MyApp.Web.Infrastructure.Base;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyApp.Web.Data.Auth
+namespace MyApp.Web.Infrastructure.Auth
 {
   public class CustomUserDetailsModelProfile : Profile
   {

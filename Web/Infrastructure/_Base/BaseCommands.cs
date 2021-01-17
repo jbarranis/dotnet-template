@@ -3,14 +3,14 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 using MyApp.Bll.Db;
-using MyApp.Web.Data.Base;
+using MyApp.Web.Infrastructure.Base;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace MyApp.Web.Data
+namespace MyApp.Web.Infrastructure
 {
   public abstract class GetCommand
   {

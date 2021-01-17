@@ -1,7 +1,7 @@
 using MyApp.Web.Infrastructure;
 using System.ComponentModel.DataAnnotations;
 
-namespace MyApp.Web.Data.Base
+namespace MyApp.Web.Infrastructure.Base
 {
   public abstract class ListModelBase
   {

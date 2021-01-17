@@ -8,10 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 using AutoMapper;
 using MyApp.Bll.Db;
 using MyApp.Bll.Models;
-using MyApp.Web.Data.Auth;
-using MyApp.Web.Data.Login;
+using MyApp.Web.Infrastructure.Auth;
 
-namespace MyApp.Web.Data.Login
+namespace MyApp.Web.Infrastructure.Login
 {
   [Route("api/logout")]
   public class LogoutController : Controller

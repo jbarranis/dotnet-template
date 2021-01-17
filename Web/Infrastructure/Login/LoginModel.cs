@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MyApp.Web.Data.Login
+namespace MyApp.Web.Infrastructure.Login
 {
   public class LoginModel
   {

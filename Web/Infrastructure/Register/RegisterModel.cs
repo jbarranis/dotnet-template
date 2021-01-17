@@ -4,7 +4,7 @@ using MyApp.Bll.Models;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 
-namespace MyApp.Web.Data.Register
+namespace MyApp.Web.Infrastructure.Register
 {
   public class RegisterModelProfile : Profile
   {
